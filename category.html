@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edu University</title>
+    <link rel="icon" href="/img/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./img/logo.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="category.html">CATEGORIES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs for 2021</h1>
+    </section>
+
+    <!-- BLOG  -->
+    <section class="blog-content">
+        <h1>Programs & Certificates</h1>
+        <div class="row">
+            <div class="blog-left">
+                <img src="./img/certificate.jpg" alt="Certificate">
+                <h2>Our Certificate & Online Programs for 2021</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea qui cupiditate dicta libero exercitationem architecto, dolor unde tempore quia excepturi eos voluptates mollitia, dolores, consectetur alias vel quidem numquam quis blanditiis perferendis repudiandae. Incidunt sint voluptates pariatur consequuntur commodi, saepe neque voluptas nostrum aut, facere ut ex excepturi itaque provident.</p><br><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis consequuntur maxime excepturi corrupti vitae labore, non eveniet quaerat libero inventore? Expedita accusamus eos sapiente cum, corporis eveniet eius fuga ducimus aperiam, voluptas doloremque. Mollitia eos iure consequatur vel hic voluptas est ex. Quisquam officiis facilis adipisci ipsa vero nemo enim.</p><br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi pariatur cumque repellat officiis hic? Cum voluptates natus numquam inventore doloribus eum necessitatibus ab quis harum ut eligendi provident ullam soluta, totam id rerum blanditiis odio unde magni beatae quaerat possimus corporis laudantium. Magni quo accusamus, a provident repellendus et ullam!</p>
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter E-mail">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <h4>Stay In Touch!</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, voluptatem.</p>
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+        <p>Made with <i class="far fa-heart"></i> by Mayada Musleh</p>
+    </footer>
+    <!-- JAVASCRIPT -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edu University</title>
+    <link rel="icon" href="/img/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./img/logo.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="category.html">CATEGORIES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <!-- COURSE  -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, magni.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, voluptatibus.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, voluptatibus.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, voluptatibus.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FACITLITIES -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, possimus.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./img/library.png" alt="Library">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit a quas voluptatibus porro tenetur delectus eius harum corporis cupiditate culpa.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./img/basketball.png" alt="Library">
+                <h3>Largest Basketball Court</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit a quas voluptatibus porro tenetur delectus eius harum corporis cupiditate culpa.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./img/cafeteria.png" alt="Library">
+                <h3>Gourmet Cafeteria</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit a quas voluptatibus porro tenetur delectus eius harum corporis cupiditate culpa.</p>
+            </div>
+        </div>
+    </section>  
+
+    <!-- FOOTER -->
+    <footer>
+        <h4>Stay In Touch!</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, voluptatem.</p>
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+        <p>Made with <i class="far fa-heart"></i> by Mayada Musleh</p>
+    </footer>
+    <!-- JAVASCRIPT -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
